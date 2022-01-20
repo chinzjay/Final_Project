@@ -39,3 +39,21 @@ CREATE TABLE world_indicators(
 			 header varchar
 );
 
+--Creating a joined table
+SELECT wi.*, 
+	   inbound.personal, 
+	   inbound.business, 
+	   inbound.total, 
+	   inbound.africa, 
+	   inbound.americas, 
+	   inbound.east_asia_and_pacific, 
+	   inbound.europe, 
+	   inbound.middle_east,
+	   inbound.south_asia, 
+	   inbound.others
+INTO merged_data
+FROM world_indicators wi
+LEFT JOIN inbound_tourism inbound
+ON wi.country=inbound.country and wi.year=inbound.year
+ORDER BY wi.year
+};
