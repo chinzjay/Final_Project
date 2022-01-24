@@ -84,6 +84,9 @@ Linear Regression is a supervised learning model that is used for finding linear
 - It is prone to overfitting if there is not much data.
 - Multicollinearity should be removed before performing linear regression.
 
+## Dashboard
+https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy
+
 ## Presentation Link
 Link for the Presentation -> https://docs.google.com/presentation/d/1WWHkNJUJ9FnploBvIQPVICQ6DHv31jZqr6gERvlPQ9Y/edit#slide=id.gc6f980f91_0_0
 
