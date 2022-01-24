@@ -48,6 +48,7 @@ Logistic Regression is a supervised learning model that is used for predicting b
 The information from the analysis can be used by the Itinerary Preparation Department to develop appropriate travel packages for various countries.
 
 - The dataset(features and target) was split into test and train sets using the train_test_split() function.
+- Scikit-learn's StandardScaler module was used to standardize numerical data.
 - A logistic regression model was created. LogisticRegression was imported from the Scikit-learn library, and then the model was instantiated. 
 - The model was then trained with the training data using fit() method.
 - Predictions were made using predict() method on X_test and the results were assembled into  *results* DataFrame.
@@ -57,7 +58,13 @@ The information from the analysis can be used by the Itinerary Preparation Depar
 Our model had an accuracy score of 87.10%. This means that  observations in the testing set was predicted correctly 87% by the model. 
 
 ### Linear Regression
+Linear Regression is a supervised learning model that is used for finding linear relationship between target (dependent variable) and independent variables. The case of more than one feature is called as multiple linear regression.
 
+- The dataset(features and target) was split into test and train sets using the train_test_split() function.
+- Scikit-learn's StandardScaler module was used to standardize numerical data.
+- Instance of the linear regression model was created from sklearn.linear_model's LinearRegression class.
+- Data was analyzed to learn patterns in the training stage.
+- Predict() method was used to generate predictions on the test dataset (X_test).
 
 ## Presentation Link
 Link for the Presentation -> https://docs.google.com/presentation/d/1WWHkNJUJ9FnploBvIQPVICQ6DHv31jZqr6gERvlPQ9Y/edit#slide=id.gc6f980f91_0_0
