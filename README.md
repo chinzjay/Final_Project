@@ -57,6 +57,15 @@ The information from the analysis can be used by the Itinerary Preparation Depar
 #### Results
 Our model had an accuracy score of 87.10%. This means that  observations in the testing set was predicted correctly 87% by the model. 
 
+#### Benefits of Logistic Regression
+- Logistic regression is much easier to set up and train than other machine learning models.
+- When data is linearly separable, it is one of the most eficient algorithms.
+
+#### Limitaions of Logistic Regression
+- On high dimensional datasets, there is a high probability of overstating the accuracy of predictions on the training set and thus the model may not be able to predict accurate results on the test set.
+- It is difficult to capture complex relationships.
+- Logistic Regression requires moderate or no multicollinearity between independent variables. 
+
 ### Linear Regression
 Linear Regression is a supervised learning model that is used for finding linear relationship between target (dependent variable) and independent variables. The case of more than one feature is called as multiple linear regression.
 
@@ -65,6 +74,15 @@ Linear Regression is a supervised learning model that is used for finding linear
 - Instance of the linear regression model was created from sklearn.linear_model's LinearRegression class.
 - Data was analyzed to learn patterns in the training stage.
 - Predict() method was used to generate predictions on the test dataset (X_test).
+
+#### Benefits of Linear Regression
+- It is a very efficient model and is easy to train.
+- Modeling speed is fast and the predictions run fast with large amount of data.
+
+#### Limitations of Linear Regression
+- It is highly affected by outliers.
+- It is prone to overfitting if there is not much data.
+- Multicollinearity should be removed before performing linear regression.
 
 ## Presentation Link
 Link for the Presentation -> https://docs.google.com/presentation/d/1WWHkNJUJ9FnploBvIQPVICQ6DHv31jZqr6gERvlPQ9Y/edit#slide=id.gc6f980f91_0_0
