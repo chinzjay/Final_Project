@@ -1,6 +1,6 @@
 -- Creating tables for inbound_tourism
 CREATE TABLE inbound_tourism(
-			 country varchar PRIMARY KEY NOT NULL,
+			 country varchar NOT NULL,
 			 year int,
 			 personal float,
 			 business float, 
@@ -17,7 +17,7 @@ CREATE TABLE inbound_tourism(
 -- Creating tables for world_indicators
 CREATE TABLE world_indicators(
 			 birth_rate float,
-			 country varchar PRIMARY KEY NOT NULL,
+			 country varchar NOT NULL,
 			 gdp float,
 			 health_exp_percent_gdp float,
 			 health_exp_per_capita float,
