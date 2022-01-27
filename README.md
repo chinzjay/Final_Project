@@ -15,10 +15,6 @@ Tourism is emerging as one of the noticeable growing sectors. It plays a key rol
 - Loulwa Alkaisi
 - Robert Gallagher
 
-### Communication Protocols
-- Our team collaborated  through virtual meetings during the week to discuss roles, address issues and work towards the project outcome.
-- Additional details were communicated through Slack.
-
 ## Data Source
 For our project, we analyzed the data obtained from the following sources.
 - **UNWTO**
