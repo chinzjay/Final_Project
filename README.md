@@ -1,6 +1,6 @@
 # Tourism Insights
 ## Project Overview
-Travelpedia is a private travel agency that offers travel and tourism related services to different countries. Thep provide package tours for each destinations. The purpose of our project is to help the Itinerary Preparation Department of Travelpedia design global travel packages by analyzing the correlation between the economic indicators of a country and its influence on the type of tourism (Personal vs Business).
+Travelpedia is a private travel agency that offers travel and tourism related services to different countries. They provide package tours for each destinations. The purpose of our project is to help the Itinerary Preparation Department of Travelpedia design global travel packages by analyzing the correlation between the economic indicators of a country and its influence on the type of tourism (Personal vs Business).
 
 ## Introduction
 Tourism is emerging as one of the noticeable growing sectors. It plays a key role in boosting a country's economy and can have a positive influence on the economic outcomes of a nation such as increase in GDP and business opportunites. For our study, our team analyzed the tourist influx data from different regions of the world and economic indicators during the period from 2000-2012 for different countries. The data was collected from UNWTO and Kaggle. Following are the questions we are trying to answer from our analysis.
