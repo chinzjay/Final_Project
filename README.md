@@ -59,8 +59,8 @@ Scikit-learn is the machine learning library for the Python. Using train_test_sp
 
 ## Machine Learning Model
 The following Machine Learning Models were performed for our data analysis.
-- **Logistic Regression** to predict the kind of tourism prominent in the country
-- **Linear Regression** to predict the percentage of Personal Tourism
+- `Logistic Regression` to predict the kind of tourism prominent in the country
+- `Linear Regression` to predict the percentage of Personal Tourism
 
 ### Logistic Regression
 Logistic Regression is a supervised learning model that is used for predicting binary outcomes. The dependent variable is categorical in this approach. It is used in statistics and machine learning to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. This type of analysis can help predict the probability of an event happening. 
@@ -81,7 +81,7 @@ The model has an accuracy score of 84.90%. This means that 85% of the observatio
 | Business  |    136    |    30    |
 | Personal  |     18    |   134    |
 
-To evaluate the model further, classification report was generated for the model to measure the quality of predictions. Fig1 depicts the classification report for the model.
+To evaluate the model further, classification report was generated for the model to measure the quality of predictions. The classification report was visualized using heatmaps using Seaborn library and can be found [here](Resources/Images/logreg_conf_matrix.png).
 
 - **Precision** is the ability of a classifier not to label an instance positive that is actually negative. For each class it is defined as the ratio of true positives to the sum of true and false positives. Our model has a precision score of 0.88 for Business and 0.82 for Personal.
 - **Recall** is the ability of a classifier to find all positive instances. For each class it is defined as the ratio of true positives to the sum of true positives and false negatives. Our model has a precision score of 0.82 for Business and 0.88 for Personal.
@@ -91,7 +91,7 @@ To evaluate the model further, classification report was generated for the model
 - Logistic regression is much easier to set up and train than other machine learning models.
 - When data is linearly separable, it is one of the most eficient algorithms.
 
-#### Limitaions of Logistic Regression
+#### Limitations of Logistic Regression
 - On high dimensional datasets, there is a high probability of overstating the accuracy of predictions on the training set and thus the model may not be able to predict accurate results on the test set.
 - It is difficult to capture complex relationships.
 - Logistic Regression requires moderate or no multicollinearity between independent variables. 
@@ -117,10 +117,18 @@ The model has Root Mean Square Error (RMSE) of 11.27. RMSE is the standard way t
 - It is prone to overfitting if there is not much data.
 - Multicollinearity should be removed before performing linear regression.
 
+### Changes in Model Choice
+Additional Machine Learning model were created to identify the best choice for analysis. Following are the additional models that were performed.
+- Support Vector Machine (SVM)
+- Decision Trees
+- Linear Regression after performing PCA for feature reduction
+Since the above models did not improve the model performance we went with the model choices in `Machine Learning` Section
 ## Dashboard
+
 https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy
 
 ## Presentation Link
-Link for the Presentation -> Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit#slide=id.g110f9aaae38_0_110)
+The final analysis was drafted as a presentation using Google Slides. 
+Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit#slide=id.g110f9aaae38_0_110) for the Presentation link.
 
 
