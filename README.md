@@ -18,9 +18,9 @@ Following are the objectives of our project.
 ## Data Source
 For our project, we analyzed the data obtained from the following sources.
 - **UNWTO**
-    - The dataset from UNWTO compiles figures from national and international institutions including national tourism administrations, national statistical offices and central          banks and border statistics. Here is the [link](https://www.unwto.org/statistic/basic-tourism-statistics) to UNWTO dataset.
+    - The dataset from UNWTO compiles figures from national and international institutions including national tourism administrations, national statistical offices and central          banks and border statistics. [Here](https://www.unwto.org/statistic/basic-tourism-statistics) is the link to UNWTO dataset.
 - **World Economic Indicators dataset from Kaggle database**
-    - This dataset includes some of the important indicators such as Life Expectancy, Ease of doing Business, Population, Tourism etc that drives the global economy. It has been       obtained from the United Nations. Here is the [link](https://www.kaggle.com/bhatvikas/world-tourism-economic-data) to Economic Indicators dataset.
+    - This dataset includes some of the important indicators such as Life Expectancy, Ease of doing Business, Population, Tourism etc that drives the global economy. It has been       obtained from the United Nations. [Here](https://www.kaggle.com/bhatvikas/world-tourism-economic-data) is the link to Economic Indicators dataset.
 
 ## Technologies 
 - Data was initially cleaned using **Excel, Macros** and **Python**.
