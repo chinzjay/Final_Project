@@ -55,7 +55,7 @@ The **features** for the model are the economic indicators of a country includin
 ### Training and Testing Sets
 Scikit-learn is the machine learning library for the Python. Using train_test_split() from scikit-learn, the dataset was split into subsets: *training* and *testing* datasets for evaluation and validation of the Machine Learning model. Following is the split of the training and testing dataset.
 - Training set : 951 train samples (75% ) 
-- Testing set : (318) test samples (25%) 
+- Testing set : 318 test samples (25%) 
 
 ## Machine Learning Model
 The following Machine Learning Models were performed for our data analysis.
@@ -63,10 +63,10 @@ The following Machine Learning Models were performed for our data analysis.
 - **Linear Regression** to predict the percentage of Personal Tourism
 
 ### Logistic Regression
-Logistic Regression is a supervised learning model that is used for predicting binary outcomes. The dependent variable is categorical in this approach. It is used in statistics and machine learning to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. This type of analysis can help predict the probability of an event happening. In our case, it is used to predict what type of tourism is more likely in a country. The analysis looks at Personal tourists, Business tourists, number of visitors from various regions (Africa, Americas, East Asia and Pacific, Europe, Middle East), Population of different age groups (65+, 15-64, 0-14), Urban Population, Inbound Tourism, Outbound Tourism (Indepepndent variables).
-The information from the analysis can be used by the Itinerary Preparation Department to develop appropriate travel packages for various countries.
+Logistic Regression is a supervised learning model that is used for predicting binary outcomes. The dependent variable is categorical in this approach. It is used in statistics and machine learning to understand the relationship between the dependent variable and one or more independent variables by estimating probabilities using a logistic regression equation. This type of analysis can help predict the probability of an event happening. 
+In our case, it is used to predict what type of tourism is more likely in a country. The analysis looks at Personal tourists, Business tourists, number of visitors from various regions (Africa, Americas, East Asia and Pacific, Europe, Middle East), Population of different age groups (65+, 15-64, 0-14), Urban Population, Inbound Tourism, Outbound Tourism etc (Independent variables).
 
-- The dataset(features and target) was split into test and train sets using the train_test_split() function.
+- The dataset (features and target) was split into test and train sets using the train_test_split() function.
 - Scikit-learn's StandardScaler module was used to standardize numerical data.
 - Logistic regression model was created. LogisticRegression was imported from the Scikit-learn library, and then the model was instantiated. 
 - The model was then trained with the training data using fit() method.
@@ -99,7 +99,7 @@ To evaluate the model further, classification report was generated for the model
 ### Linear Regression
 Linear Regression is a supervised learning model that is used for finding linear relationship between target (dependent variable) and independent variables. The case of more than one feature is called as multiple linear regression.
 
-- The dataset(features and target) was split into test and train sets using the train_test_split() function.
+- The dataset (features and target) was split into test and train sets using the train_test_split() function.
 - Scikit-learn's StandardScaler module was used to standardize numerical data.
 - Instance of the linear regression model was created from sklearn.linear_model's LinearRegression class.
 - Data was analyzed to learn patterns in the training stage.
