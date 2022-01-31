@@ -121,6 +121,6 @@ The model has Root Mean Square Error (RMSE) of 11.27. RMSE is the standard way t
 https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy
 
 ## Presentation Link
-Link for the Presentation -> Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit?usp=sharing)
+Link for the Presentation -> Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit#slide=id.g110f9aaae38_0_110)
 
 
