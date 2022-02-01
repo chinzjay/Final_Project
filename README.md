@@ -123,9 +123,9 @@ Additional Machine Learning model were created to identify the best choice for a
 - Decision Trees
 - Linear Regression after performing PCA for feature reduction
 Since the above models did not improve the model performance we went with the model choices in `Machine Learning` Section
-## Dashboard
 
-https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy
+## Dashboard
+The visualizations were developed in Tableau and can be found [here](https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy?publish=yes)
 
 ## Presentation Link
 The final analysis was drafted as a presentation using Google Slides. 
