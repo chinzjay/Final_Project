@@ -54,8 +54,9 @@ In the data preprocessing step, the null values were dropped. The final cleaned 
 It was used to plot pairwise relationships for the dataset. By default, this function creates a grid of axis so that each numeric variable in data is shared across the y-axis across a single row and the x-axes across a single column. [Here](Resources/Images/pairplot.png) is the visualization plotted using our dataset. 
 
 #### Feature Selection
-The **target** for our Logistic Regression model is higher_tourism (Personal or Business tourism).
+The correlation between the attributes were determined using corr() function. It is used to find the pairwise correlation of all columns in the dataframe. The features with  threshold of over 0.2 was chosen for the classification. 
 The **features** for the model are the economic indicators of a country including GDP, Population, Population of different age groups (65+, 15-64, 0-14), Urban Population, Inbound Tourism, Outbound Tourism etc. The features not relevant to the analyzis were eliminated so the model won't be run using every column. In this process, the features *country, no_of_records, population_total, region, total, header, year* were dropped.
+The **target** for our Logistic Regression model is higher_tourism (Personal or Business tourism).
 
 ### Training and Testing Sets
 Scikit-learn is the machine learning library for the Python. Using train_test_split() from scikit-learn, the dataset was split into subsets: *training* and *testing* datasets for evaluation and validation of the Machine Learning model. Following is the split of the training and testing dataset.
@@ -87,6 +88,12 @@ The model has an accuracy score of 84.90%. This means that 85% of the observatio
 | Personal  |     18    |   134    |
 
 To evaluate the model further, classification report was generated for the model to measure the quality of predictions. The classification report was visualized using heatmaps using Seaborn library and can be found [here](Resources/Images/logreg_conf_matrix.png).
+
+Heatmap of the confusion matrix was generated using heatmap() in Seaborn (*Fig3*).
+
+![logreg_conf_matrix.png](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/logreg_conf_matrix.png)
+|:--:|
+|Fig 4. Heatmap of confusion matrix|
 
 - **Precision** is the ability of a classifier not to label an instance positive that is actually negative. For each class it is defined as the ratio of true positives to the sum of true and false positives. Our model has a precision score of 0.88 for Business and 0.82 for Personal.
 - **Recall** is the ability of a classifier to find all positive instances. For each class it is defined as the ratio of true positives to the sum of true positives and false negatives. Our model has a precision score of 0.82 for Business and 0.88 for Personal.
@@ -133,7 +140,12 @@ Since the above models did not improve the model performance we went with the mo
 The visualizations were developed in Tableau and can be found [here](https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy?publish=yes)
 
 ## Presentation Link
-The final analysis was drafted as a presentation using Google Slides. 
+The final analysis was drafted as a presentation using Google Slides. (*Fig4*)
+
+![presentation.PNG](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/presentation.PNG)
+|:--:|
+|Fig 4. Presentation in Google Slides|
+
 Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit#slide=id.g110f9aaae38_0_110) for the Presentation link.
 
 
