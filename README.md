@@ -88,6 +88,12 @@ The model has an accuracy score of 84.90%. This means that 85% of the observatio
 
 To evaluate the model further, classification report was generated for the model to measure the quality of predictions. The classification report was visualized using heatmaps using Seaborn library and can be found [here](Resources/Images/logreg_conf_matrix.png).
 
+Heatmap of the confusion matrix was generated using heatmap() in Seaborn (*Fig3*).
+
+![logreg_conf_matrix.png](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/logreg_conf_matrix.png)
+|:--:|
+|Fig 4. Heatmap of confusion matrix|
+
 - **Precision** is the ability of a classifier not to label an instance positive that is actually negative. For each class it is defined as the ratio of true positives to the sum of true and false positives. Our model has a precision score of 0.88 for Business and 0.82 for Personal.
 - **Recall** is the ability of a classifier to find all positive instances. For each class it is defined as the ratio of true positives to the sum of true positives and false negatives. Our model has a precision score of 0.82 for Business and 0.88 for Personal.
 - **F1 score** is a weighted harmonic mean of precision and recall such that the best score is 1.0 and the worst is 0.0. Generally speaking, F1 scores are lower than accuracy measures as they embed precision and recall into their computation. Our model has a high F1 score of 0.85.
@@ -133,7 +139,12 @@ Since the above models did not improve the model performance we went with the mo
 The visualizations were developed in Tableau and can be found [here](https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy?publish=yes)
 
 ## Presentation Link
-The final analysis was drafted as a presentation using Google Slides. 
+The final analysis was drafted as a presentation using Google Slides. (*Fig4*)
+
+![presentation.PNG](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/presentation.PNG)
+|:--:|
+|Fig 4. Presentation in Google Slides|
+
 Click [here](https://docs.google.com/presentation/d/1wz0L_9sGG8Sp67flq5-gzdvH7xY7l96yu5Mg91FLrBU/edit#slide=id.g110f9aaae38_0_110) for the Presentation link.
 
 
