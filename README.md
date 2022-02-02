@@ -54,8 +54,9 @@ In the data preprocessing step, the null values were dropped. The final cleaned 
 It was used to plot pairwise relationships for the dataset. By default, this function creates a grid of axis so that each numeric variable in data is shared across the y-axis across a single row and the x-axes across a single column. [Here](Resources/Images/pairplot.png) is the visualization plotted using our dataset. 
 
 #### Feature Selection
-The **target** for our Logistic Regression model is higher_tourism (Personal or Business tourism).
+The correlation between the attributes were determined using corr() function. It is used to find the pairwise correlation of all columns in the dataframe. The features with  threshold of over 0.2 was chosen for the classification. 
 The **features** for the model are the economic indicators of a country including GDP, Population, Population of different age groups (65+, 15-64, 0-14), Urban Population, Inbound Tourism, Outbound Tourism etc. The features not relevant to the analyzis were eliminated so the model won't be run using every column. In this process, the features *country, no_of_records, population_total, region, total, header, year* were dropped.
+The **target** for our Logistic Regression model is higher_tourism (Personal or Business tourism).
 
 ### Training and Testing Sets
 Scikit-learn is the machine learning library for the Python. Using train_test_split() from scikit-learn, the dataset was split into subsets: *training* and *testing* datasets for evaluation and validation of the Machine Learning model. Following is the split of the training and testing dataset.
