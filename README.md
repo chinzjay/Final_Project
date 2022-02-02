@@ -23,7 +23,12 @@ For our project, we analyzed the data obtained from the following sources.
     - This dataset includes some of the important indicators such as Life Expectancy, Ease of doing Business, Population, Tourism etc that drives the global economy. It has been       obtained from the United Nations. [Here](https://www.kaggle.com/bhatvikas/world-tourism-economic-data) is the link to Economic Indicators dataset.
 
 ## Technologies 
-- Data was initially cleaned using **Excel, Macros** and **Python**.
+- Data was initially cleaned using **Excel, Macros** and **Python**. *Fig1* shows code snippet of basic cleaning on the data using macros
+
+![Excel_Macro_Screen_Shot.png](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/Excel_Macro_Screen_Shot.png)
+|:--:|
+|Fig 1. Code snipet of cleaning using macros|
+
 - Initial data ([Economic indicators](Resources/clean_inbound_data_thousands.csv), [Inbound tourism)](Resources/clean_world_ind.csv) was imported into tables in **PostgreSQL**.
 - The data was then connected to [**Jupyter Notebook**](Tourism.ipynb) and **Machine Learning** models were implemented.
 - Interactive dashboards were created using **Tableau** to present the data story.
@@ -33,11 +38,11 @@ For our project, we analyzed the data obtained from the following sources.
 During the initial exploration phase, the data was cleaned using Python and MS Excel to be used for the Machine Learning Models. The cleaned data was combined on the fields *Country* and *Year* and filtered for the year 2000 to make an initial analysis. The data was visualized using Tableau worksheets and Seaborn for further understanding of the data. Logistic Regression was then performed on the dataset to identify the Type of Tourism (Personal vs Business) that was popular in the country. 
 
 ## Database, Data Cleaning and Preprocessing
-Database was created in PostgreSQL and stored in Amazon Web Services (AWS) to store the static data for analyis. Tables were created based on the designed [Entity Relationship Diagram](database/ERD.png) (ERD). ERDs are created based on three basic concepts: entities, attributes and relationships. The two tables *inbound_tourism* and *world_indicators* were implemented into the database in PostgreSQL. Both the tables were merged using joins to the *merged_data* table *(Fig1)* on the columns *Country* and *Year*. 
+Database was created in PostgreSQL and stored in Amazon Web Services (AWS) to store the static data for analyis. Tables were created based on the designed [Entity Relationship Diagram](database/ERD.png) (ERD). ERDs are created based on three basic concepts: entities, attributes and relationships. The two tables *inbound_tourism* and *world_indicators* were implemented into the database in PostgreSQL. Both the tables were merged using joins to the *merged_data* table *(Fig2)* on the columns *Country* and *Year*. 
 
 ![merged_data.PNG](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/merged_data.PNG)
 |:--:|
-|Fig 1. Merged_data using joins in PostgreSQL|
+|Fig 2. Merged_data using joins in PostgreSQL|
 
 The tables were configured using [this](database/schema.sql) schema. 
 The data is connected to [Jupyter Notebook](Tourism.ipynb) using connection string.
