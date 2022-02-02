@@ -18,9 +18,9 @@ Following are the objectives of our project.
 ## Data Source
 For our project, we analyzed the data obtained from the following sources.
 - **UNWTO**
-    - The dataset from UNWTO compiles figures from national and international institutions including national tourism administrations, national statistical offices and central          banks and border statistics. Here is the [link](https://www.unwto.org/statistic/basic-tourism-statistics) to UNWTO dataset.
+    - The dataset from UNWTO compiles figures from national and international institutions including national tourism administrations, national statistical offices and central          banks and border statistics. [Here](https://www.unwto.org/statistic/basic-tourism-statistics) is the link to UNWTO dataset.
 - **World Economic Indicators dataset from Kaggle database**
-    - This dataset includes some of the important indicators such as Life Expectancy, Ease of doing Business, Population, Tourism etc that drives the global economy. It has been       obtained from the United Nations. Here is the [link](https://www.kaggle.com/bhatvikas/world-tourism-economic-data) to Economic Indicators dataset.
+    - This dataset includes some of the important indicators such as Life Expectancy, Ease of doing Business, Population, Tourism etc that drives the global economy. It has been       obtained from the United Nations. [Here](https://www.kaggle.com/bhatvikas/world-tourism-economic-data) is the link to Economic Indicators dataset.
 
 ## Technologies 
 - Data was initially cleaned using **Excel, Macros** and **Python**.
@@ -123,9 +123,9 @@ Additional Machine Learning model were created to identify the best choice for a
 - Decision Trees
 - Linear Regression after performing PCA for feature reduction
 Since the above models did not improve the model performance we went with the model choices in `Machine Learning` Section
-## Dashboard
 
-https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy
+## Dashboard
+The visualizations were developed in Tableau and can be found [here](https://public.tableau.com/app/profile/robert.gallagher7587/viz/Tourism_by_Country/TourismandtheEconomy?publish=yes)
 
 ## Presentation Link
 The final analysis was drafted as a presentation using Google Slides. 
