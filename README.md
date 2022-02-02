@@ -112,7 +112,6 @@ Heatmap of the confusion matrix was generated using heatmap() in Seaborn (*Fig3*
 Linear Regression is a supervised learning model that is used for finding linear relationship between target (dependent variable) and independent variables. The case of more than one feature is called as multiple linear regression.
 
 - The dataset (features and target) was split into test and train sets using the train_test_split() function.
-- Scikit-learn's StandardScaler module was used to standardize numerical data.
 - Instance of the linear regression model was created from sklearn.linear_model's LinearRegression class.
 - Data was analyzed to learn patterns in the training stage.
 - Predict() method was used to generate predictions on the test dataset (X_test).
