@@ -141,7 +141,7 @@ The visualizations were developed in Tableau and can be found [here](https://pub
 ## Presentation Link
 The final analysis was drafted as a presentation using Google Slides. (*Fig4*)
 
-![presentation.PNG](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/presentation.PNG)
+![ppt.PNG](https://github.com/chinzjay/Final_Project/blob/main/Resources/Images/ppt.PNG)
 |:--:|
 |Fig 4. Presentation in Google Slides|
 
